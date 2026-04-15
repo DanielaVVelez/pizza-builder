@@ -16,7 +16,7 @@ def main(app: ft.Page):
     base_img = ft.Image(src="images/base.png", width=700, height=700)
     pepperoni_layer = ft.Image(src="images/pepperoni.png", width=100, height=100, visible=False, top=150, left=150)
     corn_layer = ft.Image(src="images/corn.png", width=400, height=400, visible=False)
-    tomato_layer = ft.Image(src="images/tomato.png", width=100, height=100, visible=False)
+    tomato_layer = ft.Image(src="images/tomato.png", width=100, height=100, visible=False, top=150, left=150)
 
     pizza_display = ft.Stack(
         width=400,
